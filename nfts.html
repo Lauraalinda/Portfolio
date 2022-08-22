@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="nfts.css">
+  <script src="https://kit.fontawesome.com/7cf0963032.js" crossorigin="anonymous"></script>
+  <title>Document</title>
+</head>
+<body>
+<div class="top">
+  <section class="header">
+    <nav>
+      <p>Laura Alinda</p>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="#pink">DETAILS</a></li>
+                <li><a href="#">DESIGN</a></li>
+                <li><a href="https://github.com/Lauraalinda/Nfts-Website">GITHUB</a></li>
+              
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+</section>
+
+<div class="project">
+  <div class="heading">
+    <h1>NFTS<br><span>WEBSITE</span></h1>
+    <p>Discover and Collect Rare Nfts</p>
+  </div>
+  <div class="fem">
+      <img src="images/DISCOVER.png"id="woman">
+  </div>
+</div>
+</div>
+
+
+<div class="pink" id="pink">
+    <h1>Details</h1>
+    <p>This is website designed on figma and built in basic HTML and CSS.<br> Its a platform with details on rare NFTs</p>
+  <div class="buttons">
+    <button id="btn"><a href="https://www.behance.net/gallery/147830047/Website-UI">View Design</a></button>
+    <button id="btn"><a href="https://friendly-seahorse-e283d4.netlify.app/">Website</a></button>
+  </div>
+</div>
+ 
+<!-- ...java script for toggle.. -->
+  <script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
